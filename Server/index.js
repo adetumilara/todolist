@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 mongoose.connect(
-  "mongodb+srv://adetayotumi4:12345678password@cluster0.ttfzz.mongodb.net/Test"
+  "mongodb+srv://adetayotumi4:<PASSWORD>@cluster0.ttfzz.mongodb.net/Test"
 );
 
 app.get("/get", (req, res) => {
